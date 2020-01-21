@@ -1,15 +1,20 @@
 {
-  "name": "Babel-Boilerplate",
+  "name": "Babel_Boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src/index.js -o public/scripts/bundle.js --presets env --watch",
+    "server": "live-server public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "live-server": "^1.2.1"
   }
 }
