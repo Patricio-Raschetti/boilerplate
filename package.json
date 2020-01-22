@@ -1,17 +1,20 @@
 {
-  "name": "Babel_Boilerplate",
+  "name": "Boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "babel src/index.js -o public/scripts/bundle.js --presets env --watch",
+    "webpack": "webpack",
     "server": "live-server public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
