@@ -1,5 +1,5 @@
 {
-  "name": "Boilerplate",
+  "name": "boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,13 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
     "core-js": "^3.6.4",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
     "live-server": "^1.2.1"
   }
 }
