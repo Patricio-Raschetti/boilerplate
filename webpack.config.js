@@ -5,5 +5,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'public/scripts'),
         filename: 'bundle.js'
+    },
+    devServer: {
+        watchContentBase: true
     }
 }

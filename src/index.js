@@ -1,11 +1,8 @@
-const name = 'Pato'
-console.log(name)
+import squaree, { add, name } from './utilities';
+import scream from './scream';
+console.log('index.js');
 
-class Hangman {
-    myMethod() {
-        return 'Testing'
-    }
-}
-
-const hangman = new Hangman()
-console.log(hangman.myMethod())
+console.log(add(20, 20));
+console.log(scream(name));
+console.log(name);
+console.log(squaree(10));
