@@ -19,6 +19,8 @@ module.exports = {
         }]
     },
     devServer: {
-        watchContentBase: true
+        contentBase: path.resolve(__dirname, 'public'),
+        publicPath: '/scripts/',
+        //watchContentBase: true
     }
 }
