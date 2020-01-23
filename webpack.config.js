@@ -22,5 +22,6 @@ module.exports = {
         contentBase: path.resolve(__dirname, 'public'),
         publicPath: '/scripts/',
         //watchContentBase: true
-    }
+    },
+    devtool: 'source-map'
 }
